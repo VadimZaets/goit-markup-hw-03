@@ -17,19 +17,22 @@
 
 <!-- Шапка -->
 <header class="header">
-     <nav><a class="logo " href="./index.html"><span class="web"> Web</span>Studio</a>  
-    <ul>
+    
+     <nav class="container main-nav" >
+         <a class="logo " href="./index.html"><span class="web"> Web</span>Studio</a>  
+    <ul class="site-nav">
         <li><a class="link-list link" href="./index.html">Студия</a></li>
         <li><a class="link-list link" href="./portfolio.html">Портфолио</a></li>
         <li><a class="link-list link" href="">Контакты</a></li>
     </ul>
-    </nav>
+    
    
-    <ul>
+    <ul class="communication">
         <li><a class="phone link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
         <li><a class="maill link" href="tel:+380961111111">+38 096 111 11 11</a></li>
         
     </ul>
+    </nav>
 
 </header>
 <main>
@@ -37,13 +40,16 @@
 
     <section class="hero-section">
         <h1 class="hero-title">Эффективные решения <br> для вашего бизнеса</h1>
-        <button type="button" class="button">Заказать услугу</button> 
+        <button type="button" class="button primary">Заказать услугу</button> 
+
     </section>
+    
 
 
 <!-- Особенности -->
+<div class="container">
 <section class="features-section">
-    <ul>
+    <ul class="features-item" >
         <li>
             <h3 class="features-title" >Внимание к деталям</h3>
             <p class="features-text" >Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -62,19 +68,27 @@
         </li>
     </ul>
 </section>
+</div>
 
 <!-- Чем мы занимаемся -->
+<div class="container">
 <section class="about-section">
       <h2 class="section-title">Чем мы занимаемся</h2>
       <ul>
-      <li><img src="img/box1.jpg" alt="Робота с Html кодом" width="370"></li>
-      <li><img src="img/box2.jpg" alt="Разроботка сайта для телефона" width="370"></li>
-      <li><img src="img/box3.jpg" alt="Подбор цветовой палитры" width="370"></li>
+      <li><img src="img/box1.jpg" alt="Робота с Html кодом" width="370" height="294"></li>
+      <li><img src="img/box2.jpg" alt="Разроботка сайта для телефона" width="370" height="294"></li>
+      <li><img src="img/box3.jpg" alt="Подбор цветовой палитры" width="370" height="294"></li>
     </ul>
 </section>
+</div>
 
 <!-- Наша команда -->
-<section class="team-section">
+
+
+    <div class="container ">
+        <section class="team-section">
+            
+        
     <h2 class="section-title">Наша команда</h2>
     <ul>
         <li>
@@ -98,10 +112,16 @@
             <p class="team-text">UI Designer</p>
         </li>
     </ul>
+   
+    
+   
 </section>
+    </div>
+
 </main>
 <!-- Футер -->
 <footer class="footer-section">
+    <div class="container footer">
     <a class="logo studio " href="./index.html"><span class="web"> Web</span>Studio</a>
     <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
     <ul>
@@ -109,6 +129,7 @@
         <li><a class="maill link" href="tel:+380961111111">+38 096 111 11 11</a></li>
     
     </ul>
+    </div>
 
 
 </footer>
