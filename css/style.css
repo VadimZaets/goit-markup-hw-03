@@ -76,6 +76,9 @@ img {
 .main-nav {
   display: flex;
   align-items: center;
+}
+.site-header {
+  display: flex;
   padding-bottom: 25px;
   padding-top: 25px;
 }
@@ -88,7 +91,9 @@ img {
 }
 .communication {
   display: flex;
-  margin: auto;
+  margin-left: 300px;
+  align-items: center;
+  justify-content: flex-end;
 }
 .communication li:not(:last-child) {
   margin-right: 50px;
