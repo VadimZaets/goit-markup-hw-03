@@ -377,6 +377,48 @@ html {
   display: flex;
   flex-wrap: wrap;
 }
+.card-container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.product-thumb {
+  position: relative;
+}
+.product-thumb::before {
+  display: inline-block;
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(33, 150, 243, 0.9);
+  opacity: 0;
+}
+.product-thumb:hover::before {
+  opacity: 1;
+}
+
+.thumb-text {
+  position: absolute;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.56;
+
+  top: 0%;
+  right: 0%;
+
+  margin: 0;
+  padding: 63px 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+
+  opacity: 0;
+}
+.thumb-text:hover {
+  opacity: 1;
+}
 
 .card-name {
   font-weight: bold;
