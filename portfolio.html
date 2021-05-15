@@ -14,7 +14,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body class="body">
@@ -29,15 +29,23 @@
           >
           <ul class="site-nav list">
             <li class="item">
-              <a target="_blank" href="" class="link studio">Студия</a>
+              <a
+                target="_blank"
+                href="./index.html"
+                class="header-link link studio"
+                >Студия</a
+              >
             </li>
             <li class="item">
-              <a target="_blank" href="./portfolio.html" class="link"
+              <a
+                target="_blank"
+                href="./portfolio.html"
+                class="header-link link"
                 >Портфолио</a
               >
             </li>
             <li class="item">
-              <a target="_blank" href="" class="link">Контакты</a>
+              <a target="_blank" href="" class="header-link link">Контакты</a>
             </li>
           </ul>
         </nav>
@@ -101,12 +109,14 @@
                         alt=" сайт на мониторе"
                         width="370"
                       />
-                      <p class="thumb-text">
-                        Технокряк это современная площадка распространения
-                        коронавируса. Компании используют эту платформу для
-                        цифрового шпионажа и атак на защищённые сервера
-                        конкурентов.
-                      </p>
+                      <div class="product-overlay">
+                        <p class="thumb-text">
+                          Технокряк это современная площадка распространения
+                          коронавируса. Компании используют эту платформу для
+                          цифрового шпионажа и атак на защищённые сервера
+                          конкурентов.
+                        </p>
+                      </div>
                     </div>
                   </div>
                   <h2 class="card-name">Технокряк</h2>
@@ -205,7 +215,7 @@
 
     <!-- Футер -->
 
-    <footer class="footer">
+   <footer class="footer">
       <div class="container">
         <ul class="list section-footer">
           <li>
@@ -236,7 +246,7 @@
             </div>
           </li>
           <li>
-            <div class="advantages">
+            <div class="join">
               <h3 class="features-title white-text">Присоединяйтесь</h3>
               <ul class="social-list list">
                 <li class="social-list-item">
@@ -270,7 +280,18 @@
               </ul>
             </div>
           </li>
+          <li class="form-list">
+            <form class="form">
+             <h2 class="form-title">ПОДПИШИТЕСЬ НА РОЗСЫЛКУ</h2> 
+          <div class="form-field">
+            
+            <input type="text" name="email" id="email" placeholder="E-mail" />
+            <button type="submit" class="submit-btn">Подписаться</button>
+          </div>
+          
+          </li>
         </ul>
+       
       </div>
     </footer>
   </body>
